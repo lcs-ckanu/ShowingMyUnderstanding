@@ -19,7 +19,15 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
 
-// Replace this command and add your code below...
+// Generate a random number
+let number = random(from: 0, toButNotIncluding: 2)
+if number == 0{
+    canvas.defaultBorderWidth = 20
+    canvas.drawLine(fromX: 150, fromY: 150, toX: 0, toY: 300)
+    canvas.defaultBorderWidth = 20
+} else if number == 1{
+    canvas.drawEllipse(centreX: 150, centreY: 150, width: 40, height: 40)
+}
 
 /*:
  ## Template code
