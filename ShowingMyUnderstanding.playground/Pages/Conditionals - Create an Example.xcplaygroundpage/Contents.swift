@@ -26,7 +26,7 @@ if number == 0{
     canvas.drawLine(fromX: 150, fromY: 150, toX: 0, toY: 300)
     canvas.defaultBorderWidth = 20
 } else if number == 1{
-    canvas.drawEllipse(centreX: 150, centreY: 150, width: 40, height: 40)
+    canvas.drawRoundedRectangle(centreX: 150, centreY: 150, width: 30, height: 30)
 }
 
 /*:

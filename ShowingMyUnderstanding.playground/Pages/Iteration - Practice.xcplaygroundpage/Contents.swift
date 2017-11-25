@@ -29,11 +29,14 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
 
-// Replace this comment and add your code below...
+// Draw Rectangle
+for y in stride(from: 0, through: 200, by: 100){
+    for x in stride(from: 0, through: 300, by: 50){
+        canvas.drawRectangle(centreX: x+15, centreY: y+30, width: 20, height: 8)
+        canvas.drawRectangle(centreX: x+30, centreY: y+10, width: 20, height: 8)
 
+        
+    }
+}
 
-/*:
- ## Template code
- The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
- */
 PlaygroundPage.current.liveView = canvas.imageView
