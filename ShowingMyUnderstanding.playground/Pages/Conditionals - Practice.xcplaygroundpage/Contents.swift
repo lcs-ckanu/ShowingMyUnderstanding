@@ -32,7 +32,7 @@ if number == 0{
 } else if number == 1{
     canvas.drawEllipse(centreX: 150, centreY: 150, width: 40, height: 40)
 }
-
+canvas.drawRectangle(centreX: 150, centreY: 150, width: 300, height: 300)
 
 /*:
  ## Template code
